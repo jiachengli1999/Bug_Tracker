@@ -1,0 +1,82 @@
+a{
+    color: grey;
+}
+.LoginContent{
+    /* Fit entire page */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+    background-image: url('../pics/Login.PNG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* Center Login container  */
+.LoginContainer{
+    /* background-image: url('../pics/Login.PNG'); */
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    border: 5px solid white;
+    border-radius: 5px;
+    
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+    margin: auto;
+    text-align: center;
+}
+
+.LoginName{
+    padding: 10px;
+    font-size: 25px;
+}
+
+.LoginInfo{
+    margin-top: 30px;
+    /* padding: 10px; */
+    /* border: 5px solid black; */
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+    
+}
+
+.Username, .Password, .btn{
+    float: left;
+    width: 100%;
+    height: 33%;
+}
+
+.btn{
+    margin-top: 5px;
+    width: 40%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.ForgotPass{
+    clear: left;
+}
+
+.etc{
+    width: 80%;
+    height: 100px;
+    margin-left: 10%;
+    margin-top: 55px;
+}
+
+.ForgotPass, .SignUp, .DemoLogin{
+    font-size: 12px;
+}
